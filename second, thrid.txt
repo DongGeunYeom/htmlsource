@@ -1,0 +1,15 @@
+웹 => www
+웹어플리케이션(프로그램)
+
+img alt
+
+table tr td th 행열
+style border collapse
+form 입력 데이터
+input:text, label. 입력방법
+
+
+CSS 
+1. 외부파일 불러오기
+2.<head>~</head> 태그 안에 <styel>~</style> 태그로 작성
+3. 전역속성으로 작성 <h1 style=''>

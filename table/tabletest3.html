@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black; /* 테이블 테두리 설정 : 두께, 선 모양, 선 색상*/
+        border-collapse: collapse; /* 테이블 테두리가 2줄로 나오는 걸 합해서 보여줌 */
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <li>리스트 항목1</li>
+            <li>리스트 항목2</li>
+            <li>리스트 항목3</li>
+          </ul>
+        </td>
+        <td>
+          <ol>
+            <li>리스트 항목4</li>
+            <li>리스트 항목5</li>
+            <li>리스트 항목6</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>테이블 셀 안에는 어떠한 요소도 넣을 수 있습니다.</p>
+        </td>
+        <td>
+          <img
+            src="data:image/png;base64,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"
+            alt="이미지"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

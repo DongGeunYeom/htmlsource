@@ -1,0 +1,29 @@
+자바 스프링 / 파이썬
+
+웹 html
+
+개발환경설정
+1. 개발도구 설치 - visual studio code
+2. 확장프로그램 - live server, prettier(코드 가시성 좋게)
+
+html (hypertext markup language)
+1. 웹페이지 구조 (뼈대)
+
+html => 대소문자 구별하지 않음 / 엔터 or 공백의 의미가 없음
+ex) <PRE> or <pre>
+
+태그 : 중첩가능(안쪽 태그부터 적용)
+1. p : 문단태그
+2. br : 줄바꿈
+3. pre : 입력한 그대로 표시
+4. heading : 글자 크기 , 굵기 조절(h1~h6)
+5. b(bold), strong(strong), i(italic), em(emphasized), sub(subscript), sup(superscript) : textstyle
+6. ul / ol + li : 목록
+   ol type : 1, A, a, I, i
+      start : 시작값을 지정
+7. dl, dt, dd : 사전의 형태
+8. a, href, target :     a : link 를 만들어 줌 / href : 가야할 곳 / target : _self(defalut), _blank(새 창으로)
+! 절대경로 , 상대경로 개념
+
+css
+javascript + jquery

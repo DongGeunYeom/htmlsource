@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>필수 사항</legend>
+        <br />
+        <div>
+          <label for="username">이름</label>
+          <input type="text" name="username" id="username" required />
+        </div>
+        <br />
+        <div>
+          <label for="email">이메일</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <br />
+        <div>
+          <label for="password">비밀번호</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>부가 입력 사항</legend>
+        <div>
+          <label for="birthday">생년월일</label>
+          <input type="date" name="birthday" id="birthday" />
+        </div>
+        <br />
+        <div>
+          <label for="location">거주지를 선택해 주세요</label><br />
+          <select name="location" id="location">
+            <option value="서울시">서울시</option>
+            <option value="인천">인천</option>
+            <option value="부산">부산</option>
+            <option value="광주">광주</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="hobby">취미</label>
+          <label
+            ><input
+              type="checkbox"
+              name="reading"
+              id="reading"
+              value="독서"
+            />독서</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              name="traveling"
+              id="traveling"
+              value="여행"
+            />여행</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              name="movie"
+              id="movie"
+              value="영화감상"
+            />영화감상
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="">성별</label>
+          <label
+            ><input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="남성"
+            />남성</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="gender"
+              id="gender_f"
+              value="여성"
+            />여성</label
+          >
+        </div>
+        <br />
+        <div>
+          <label for="uploading">사진을 등록해 주세요.</label>
+          <input
+            type="file"
+            name="uploading"
+            id="uploading"
+            accept="image/*"
+            multiple
+          />
+        </div>
+        <br />
+        <div>
+          <label for="visiting">방문 경로를 말씀해주세요.</label><br />
+          <textarea
+            name="visiting"
+            id="visiting"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+      </fieldset>
+      <br />
+      <input type="submit" value="회원가입" />
+      <input type="reset" value="재작성" />
+      <input
+        type="button"
+        value="전송"
+        onclick="alert('파일이 전송되었습니다.')"
+      />
+    </form>
+  </body>
+</html>
