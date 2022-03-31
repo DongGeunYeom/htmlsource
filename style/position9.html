@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        position: relative; /* position : absolute 부모역할 */
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin: 0 auto;
+      }
+      .box {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+      .a {
+        background-color: red;
+        left: -50px;
+        top: 100px;
+      }
+      .b {
+        top: 100px;
+        right: 200px;
+        background-color: green;
+      }
+      .c {
+        top: 100px;
+        right: -50px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box a">box a</div>
+      <div class="box b">box b</div>
+      <div class="box c">boc c</div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid,
+      non neque ducimus, officiis accusantium aut debitis, eius adipisci
+      provident dolore rerum vitae expedita asperiores reiciendis beatae quis
+      soluta doloremque.
+    </p>
+  </body>
+</html>

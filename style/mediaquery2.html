@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+          padding:0;
+          margin:0;
+      }
+    .container{
+        background-color: yellow;
+        height: 100px;
+    }
+    @media screen and (max-width:960px){
+        .container{
+        background-color: dodgerblue;
+    }
+    }
+    @media screen and (max-width:720px){
+        .container{
+        background-color: blueviolet;
+    }
+    }
+    @media screen and (max-width:540px){
+        .container{
+        background-color: crimson;
+    }
+    }
+    </style>
+<body>
+    <!-- 미디어 쿼리 : 사이트에 접속하는 장치에 따라 특정한 CSS 스타일을 사용하도록 해줌
+        @media [only|not] 미디어 유형 [and 조건]
+     -->
+     <div class="container"></div>
+</body>
+</html>
